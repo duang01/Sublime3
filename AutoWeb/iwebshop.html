@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="mycss.css">
+    <title>个人简介</title>
+</head>
+<!--  font-family： 为字体；font-size 为字号；text-indent：首行缩进；text-aligh：文本对齐方式  -->
+<body>
+<h1 id="self">个人介绍：</h1>
+<!--    H5新标签只能应用于手机端
+        <header>头部</header>
+        <nav>导航条</nav>
+        <aside>侧导航</aside>
+        <article>文章块</article>
+        <footer>底部</footer>-->
+    <span>
+        <h2 id="h2">这是一个h2标签</h2>
+        <h3>这是一个h3标签</h3>
+        <h4>这是一个h4标签</h4>
+        <h5>这是一个h5标签</h5>
+        <h6>这是一个h6标签</h6>
+    </span>
+    <span class="logo_bule">G</span>
+    <span class="logo_red">o</span>
+    <span class="logo_ral">o</span>
+    <span class="logo_bule">g</span>
+    <span class="logo_yellow">l</span>
+    <span class="logo_red">e</span>
+<p>这里面放的是文章的段落，一段文字</p>
+<div>
+    <b class="b1" >这是b标签字体加粗的标签</b><br /> <br />
+    <strong class="b2">我是strong,也代表加粗，但具有强调语义</strong><br />   <br />
+    <u id="b3">这是u标签代表下划线</u><br />  <br />
+    <i class="b4">我是i标签，代表倾斜</i> <br /> <br />
+    <em class="b5">w我是em，也代表倾斜，但有强调语义</em>  <br />  <br />
+    <del id="b6">我是del标签，代表删除线</del>
+</div>
+<img src="1.png" width="200" height="300"  title="你鼠标悬停在这干嘛呀 啊哈baby" alt="这是第一张图,用户提醒文字"><br />
+<!-- ctrl+? 可以实现注释的效果-->
+<!-- target 可以设置新窗口打开-->
+<a href="http://www.baidu.com" target="_blank">跳转到百度首页网站</a><br />
+<!-- 暂时不知道写什么地点的时候，需要写空连接-->
+<a href="###">我还不知道点击跳转到哪里？</a><br />
+<a href="javascript:;">这也是一个我还不知道点击跳转到哪里？</a><br />
+<!-- 锚点链接 -->
+<a href="#self">跳转到我想要的地点，id=self处</a><br />
+<!-- 所有的表单要填写的数据都要放在form标签中嵌套
+        action：代表要提交给哪一个后台程序
+        method: 代表传输过程中使用的那种方式post/get
+-->
+<form action="" method="post">
+<!--    input:代表的是输入框
+        name:代表此输入框的名字
+        id：代表此输入框的id
+        value:输入框中的默认文字
+        placeholder: 默认文字的高阶版，ie(6,7,8,9不支持)
+        password :会加密文本内容
+-->
+    昵称：<input autofocus="autofocus" type="text" name="" id="" placeholder="请输入昵称" /> <br /><br />
+    账号：<input type="text" name="" id="" placeholder="请输入账号" /><br /><br />
+    密码：<input type="password" placeholder="请输入6位以上的字母、数字组合"><br /><br />
+<!--    单选按钮
+            type:radio
+            如果想要文字点击能切换，那要添加label标签，并且设置for属性和对应的单选按钮的di值一致
+            必须给一组单选按钮添加name值，才可以实现单选效果
+            要有默认值的话需要用checked=“checked”
+-->
+    性别：<input type="radio" name="xb" id="nan" checked="checked" /> <label for="nan">男</label>
+    <input type="radio" name="xb" id="nv" /> <label for="nv">女</label>
+    <input type="radio" name="xb" id="xx" /> <label for="xx">保密</label> <br />
+    <br />
+    地址：<select name="" id="">
+    <option value="od">哈哈</option>
+    <option value="op">拉拉</option>
+    <option value="ol">嘎嘎</option>
+    <option value="on" selected="selected" >赫拉</option>
+</select>
+    <select name="" id="">
+        <optgroup label="北京">
+            <option value="">海定</option>
+            <option value="" selected="selected" >昌平</option>
+            <option value="">朝阳</option>
+            <option value="">顺义</option>
+        </optgroup>
+        <optgroup label="深圳">
+            <option value="" selected="selected" >福田</option>
+            <option value="">罗浮</option>
+            <option value="">南山</option>
+            <option value="">宝山</option>
+        </optgroup>
+        <optgroup label="广州">
+            <option value="">黄埔</option>
+            <option value="" selected="selected" >天河</option>
+            <option value="">番禺</option>
+            <option value="">越秀</option>
+        </optgroup>
+    </select> <br /><br />
+<!--    文本域不能设置为cols和rows，因为浏览器解析的结果会不一样，应使用width，height-->
+    详细地址：<br>
+    <textarea name="" id="df" width="300" height="200" placeholder="请输入详细地址"></textarea><br />
+
+    你的爱好是：<br>
+    <input type="checkbox" checked="checked" id="cs" ><label for="cs">测试</label><br>
+    <input type="checkbox" id="ls" ><label for="ls">吃饭</label><br>
+    <input type="checkbox" id="xs"><label for="xs">睡觉</label><br>
+    <input type="submit" value="提交1" />
+    <input type="reset" value="重置1" />
+    <input type="button" value="按钮1" />
+    <button>按钮2</button>
+
+
+</form>
+
+</body>
+</html>

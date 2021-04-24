@@ -1,0 +1,14 @@
+hello nihao
+curl "https://xueqiu.com/upload/web?category=web_behavior" -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0" -H "Accept: application/json, text/plain, */*" -H "Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2" --compressed -H "Content-Type: text/plain" -H "elastic-apm-traceparent: 00-51c2055dece276940244e48f53b7768e-ed79cf239c2b22a1-01" -H "Origin: https://xueqiu.com" -H "Connection: keep-alive" -H "Referer: https://xueqiu.com/" -H "
+Cookie: xq_a_token=4db837b914fc72624d814986f5b37e2a3d9e9944;
+xqat=4db837b914fc72624d814986f5b37e2a3d9e9944;
+xq_r_token=2d6d6cc8e57501dfe571d2881cabc6a5f2542bf8;
+xq_id_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOi0xLCJpc3MiOiJ1YyIsImV4cCI6MTYwMDQ4MzAwNywiY3RtIjoxNTk4Mjg3NjIzMDI0LCJjaWQiOiJkOWQwbjRBWnVwIn0.dHzAbVAQ-99FeQePFTwkcXoCpn-9PcCKWu9Pk2jNvDy4spfrJ84438wTg1DI6yLAFDqQAZJ0D7C3pk2EbYYbQAICjGhQZ8sJg-pbVDQ0xHHQ8MVv-1QE7Zn2yYjCYkE8qZzlRwrj5rNXeyrYvYYNmpzq-dQrN8e_DiMoRsbtu96wJTKMGwCLS_yegkvXv6KmIUFtsRlizSXI_AaS_oScxRrxtFk1Zqn8JJO_vHg423RrGWskcyPqSdsH-ZBEoYnrbMToN6RWlbVXgrcRgWvb2j5aZZlcREOEI7-mnyeyN1s10lzCGntkXYa095D1DTIBGCLys5jrI4iD0Gzi1rYCrw;
+ u=431598287658709;
+ Hm_lvt_1db88642e346389874251b5a1eded6e3=1598287651;
+  Hm_lpvt_1db88642e346389874251b5a1eded6e3=1598341720;
+  device_id=24700f9f1986800ab4fcc880530dd0ed; s=e616j8b0a8;
+  __utma=1.600325226.1598296603.1598296603.1598296603.1;
+  __utmc=1;
+  __utmz=1.1598296603.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);
+  acw_tc=2760821315983423296963440e972abfcb3ae081a49f6fa856c865c76e5960" --data-raw "-1|1598342512417|windows|1366x768|31|500|1|{""cookiesu"":""431598287658709"",""ua"":""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0"",""referurl"":""https://xueqiu.com/S/SZ399001"",""url"":""https://xueqiu.com/"",""type"":""µÇÂ¼""}"

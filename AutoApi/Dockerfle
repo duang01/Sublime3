@@ -1,0 +1,21 @@
+# 基于哪个镜像
+FROM Ubuntu:14.04
+
+# 添加宿主机文件entrypoint.sh到root目录
+ADD entrypoint.sh /root
+ADD requirements.txt /root
+
+# 工作目录
+WORKDIR /root
+
+# 工作用户
+USER root
+
+# 运行命令 比如安装包和依赖
+RUN apt-get install -y epel-release \
+    && apt-get install -y python38 \
+    && pip install requset
+
+
+
+ENTRYPOINT ["/root/entrypoint.sh"]

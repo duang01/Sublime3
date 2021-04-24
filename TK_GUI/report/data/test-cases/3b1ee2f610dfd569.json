@@ -1,0 +1,77 @@
+{
+  "uid" : "3b1ee2f610dfd569",
+  "name" : "test_login_success_b",
+  "fullName" : "TK_GUI.gui_12.TestLogin#test_login_success_b",
+  "historyId" : "c0037fff56a49e4d6af16ba2dc723ad7",
+  "time" : {
+    "start" : 1607337674715,
+    "stop" : 1607337674717,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4347a9fb1f0c2877",
+      "name" : "stdout",
+      "source" : "4347a9fb1f0c2877.txt",
+      "type" : "text/plain",
+      "size" : 48
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录-功能"
+  }, {
+    "name" : "story",
+    "value" : "子功能-qq登录成功"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TK_GUI"
+  }, {
+    "name" : "suite",
+    "value" : "gui_12"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "duang"
+  }, {
+    "name" : "thread",
+    "value" : "12904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TK_GUI.gui_12"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b1ee2f610dfd569.json",
+  "parameterValues" : [ ]
+}

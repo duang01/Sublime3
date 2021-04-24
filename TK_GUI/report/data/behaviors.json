@@ -1,0 +1,121 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_success",
+    "uid" : "cd47e141eee92968",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607337674496,
+      "stop" : 1607337674497,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_failure",
+    "uid" : "750cc5652ba83757",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1607337674513,
+      "stop" : 1607337674514,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_skip",
+    "uid" : "dbba2d3232ae0cbc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607337674611,
+      "stop" : 1607337674616,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_broken",
+    "uid" : "f5b01f96a6a580a2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1607337674634,
+      "stop" : 1607337674635,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "登录-功能",
+    "children" : [ {
+      "name" : "子功能-账号密码登录成功",
+      "children" : [ {
+        "name" : "test_login_success",
+        "uid" : "659400705f9be408",
+        "parentUid" : "054bae5f228e390e073cdacd0f5fb4c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607337674675,
+          "stop" : 1607337674676,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "054bae5f228e390e073cdacd0f5fb4c0"
+    }, {
+      "name" : "子功能-微信二维码登录成功",
+      "children" : [ {
+        "name" : "test_login_success_a",
+        "uid" : "99320b3b4df9f12e",
+        "parentUid" : "9d072d0690bf8206f6e25863ca7c370d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607337674695,
+          "stop" : 1607337674696,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d072d0690bf8206f6e25863ca7c370d"
+    }, {
+      "name" : "子功能-qq登录成功",
+      "children" : [ {
+        "name" : "test_login_success_b",
+        "uid" : "3b1ee2f610dfd569",
+        "parentUid" : "65c3469b7c72f3b712c2dde477870c49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607337674715,
+          "stop" : 1607337674717,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65c3469b7c72f3b712c2dde477870c49"
+    }, {
+      "name" : "子功能-qq密码错误用例",
+      "children" : [ {
+        "name" : "test_login_fail_a",
+        "uid" : "f54d713eef17fe7d",
+        "parentUid" : "5f42e9f60c3e86f2dc8d090e0a748f5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607337674736,
+          "stop" : 1607337674739,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f42e9f60c3e86f2dc8d090e0a748f5e"
+    } ],
+    "uid" : "6b47ff159ef4ff71dfec08e5eeb4e2ba"
+  } ]
+}

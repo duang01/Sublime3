@@ -1,0 +1,60 @@
+{
+  "uid" : "750cc5652ba83757",
+  "name" : "test_failure",
+  "fullName" : "TK_GUI.gui_12#test_failure",
+  "historyId" : "19df8d2b8c84a357a66ff6efdaf1e25c",
+  "time" : {
+    "start" : 1607337674513,
+    "stop" : 1607337674514,
+    "duration" : 1
+  },
+  "description" : "this test is  fails",
+  "descriptionHtml" : "<p>this test is  fails</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "def test_failure():\n        \"\"\"this test is  fails\"\"\"\n>       assert False\nE       AssertionError\n\nTK_GUI\\gui_12.py:19: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TK_GUI"
+  }, {
+    "name" : "suite",
+    "value" : "gui_12"
+  }, {
+    "name" : "host",
+    "value" : "duang"
+  }, {
+    "name" : "thread",
+    "value" : "12904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TK_GUI.gui_12"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "750cc5652ba83757.json",
+  "parameterValues" : [ ]
+}

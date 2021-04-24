@@ -1,0 +1,122 @@
+{
+  "uid" : "659400705f9be408",
+  "name" : "test_login_success",
+  "fullName" : "TK_GUI.gui_12.TestLogin#test_login_success",
+  "historyId" : "0ce97d96f52532a4014c275eb9afd0c2",
+  "time" : {
+    "start" : 1607337674675,
+    "stop" : 1607337674676,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入账号：",
+      "time" : {
+        "start" : 1607337674675,
+        "stop" : 1607337674675,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入密码：",
+      "time" : {
+        "start" : 1607337674675,
+        "stop" : 1607337674675,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1607337674676,
+        "stop" : 1607337674676,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fea53ea441849676",
+      "name" : "stdout",
+      "source" : "fea53ea441849676.txt",
+      "type" : "text/plain",
+      "size" : 110
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录-功能"
+  }, {
+    "name" : "story",
+    "value" : "子功能-账号密码登录成功"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TK_GUI"
+  }, {
+    "name" : "suite",
+    "value" : "gui_12"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "duang"
+  }, {
+    "name" : "thread",
+    "value" : "12904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TK_GUI.gui_12"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "659400705f9be408.json",
+  "parameterValues" : [ ]
+}

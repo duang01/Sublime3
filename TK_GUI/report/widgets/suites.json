@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "39d92c9bbd5e5e035fac3824907c9f79",
+    "name" : "TK_GUI",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 1,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 8
+    }
+  } ]
+}
