@@ -1,0 +1,15 @@
+"""mitmdump代理工具的使用方法"""
+
+from mitmproxy import http
+
+
+def request(flow: http.HTTPFlow) -> None:
+
+    if flow.request.pretty_url == "http:// example.com/path":         # 要访问的地址
+        # 期待返回的响应数据
+        with open("C:/users/desktop/quete.json", encoding="utf-8") as f:
+            flow.response = http.HTTPResponse.make(
+                    200,  # status code
+                    f.read(),  # content
+                    {"Content-Type": "text/html"}  # headers
+        )
