@@ -1,0 +1,13 @@
+INFO     root:base.py:15 正在初始化driver: <selenium.webdriver.firefox.webdriver.WebDriver (session="2cfbf978-9a2d-487c-aa1b-291cf2748a92")>
+INFO     root:page_mp_login.py:46 正在调用自媒体登录业务方法，用户名：13812345679密码：246811
+INFO     root:base.py:27 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+INFO     root:base.py:41 正在对元素：('css selector', "[placeholder='请输入手机号']")执行清空数据
+INFO     root:base.py:44 正在对：('css selector', "[placeholder='请输入手机号']")元素输入数据：13812345679
+INFO     root:base.py:27 正在查找元素：('css selector', "[placeholder='验证码']")
+INFO     root:base.py:41 正在对元素：('css selector', "[placeholder='验证码']")执行清空数据
+INFO     root:base.py:44 正在对：('css selector', "[placeholder='验证码']")元素输入数据：246811
+INFO     root:base.py:52 正在点击元素：('xpath', '/html/body/div[1]/div/div/form/div[4]/div/button/span')
+INFO     root:base.py:27 正在查找元素：('xpath', '/html/body/div[1]/div/div/form/div[4]/div/button/span')
+INFO     root:base.py:15 正在初始化driver: <selenium.webdriver.firefox.webdriver.WebDriver (session="2cfbf978-9a2d-487c-aa1b-291cf2748a92")>
+INFO     root:base.py:52 正在点击元素：('xpath', '/html/body/div[1]/div/div[1]/ul/div[2]/li/div/span')
+INFO     root:base.py:27 正在查找元素：('xpath', '/html/body/div[1]/div/div[1]/ul/div[2]/li/div/span')

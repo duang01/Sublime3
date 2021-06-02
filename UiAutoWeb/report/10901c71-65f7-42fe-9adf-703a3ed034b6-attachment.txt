@@ -1,0 +1,11 @@
+INFO     root:base.py:15 正在初始化driver: <selenium.webdriver.firefox.webdriver.WebDriver (session="07100af7-88fd-4909-8713-77d4fcfd89b6")>
+INFO     root:base.py:27 正在查找元素：('css selector', "[placeholder='用户名']")
+INFO     root:base.py:41 正在对元素：('css selector', "[placeholder='用户名']")执行清空数据
+INFO     root:base.py:44 正在对：('css selector', "[placeholder='用户名']")元素输入数据：testid
+INFO     root:base.py:27 正在查找元素：('css selector', "[placeholder='密码']")
+INFO     root:base.py:41 正在对元素：('css selector', "[placeholder='密码']")执行清空数据
+INFO     root:base.py:44 正在对：('css selector', "[placeholder='密码']")元素输入数据：testpwd123
+INFO     root:base.py:52 正在点击元素：('css selector', '#inp1')
+INFO     root:base.py:27 正在查找元素：('css selector', '#inp1')
+INFO     root:base.py:62 正在获取元素文本信息：('css selector', '.user_info')
+INFO     root:base.py:27 正在查找元素：('css selector', '.user_info')

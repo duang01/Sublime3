@@ -1,0 +1,93 @@
+2021-06-03 00:00:49,479 INFO [base.py(__init__:15)] - 正在初始化driver: <selenium.webdriver.firefox.webdriver.WebDriver (session="2c7959c8-d655-4205-8a7c-21156fdd21cb")>
+2021-06-03 00:00:49,527 INFO [page_mp_login.py(page_mp_login:38)] - 正在调用自媒体登录业务方法，用户名：13812345679密码：246811
+2021-06-03 00:00:54,529 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-06-03 00:00:54,548 INFO [base.py(base_input:41)] - 正在对元素：('css selector', "[placeholder='请输入手机号']")执行清空数据
+2021-06-03 00:00:54,558 INFO [base.py(base_input:44)] - 正在对：('css selector', "[placeholder='请输入手机号']")元素输入数据：13812345679
+2021-06-03 00:00:59,653 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-06-03 00:00:59,659 INFO [base.py(base_input:41)] - 正在对元素：('css selector', "[placeholder='验证码']")执行清空数据
+2021-06-03 00:00:59,666 INFO [base.py(base_input:44)] - 正在对：('css selector', "[placeholder='验证码']")元素输入数据：246811
+2021-06-03 00:01:04,753 INFO [base.py(base_click:52)] - 正在点击元素：('xpath', '/html/body/div[1]/div/div/form/div[4]/div/button/span')
+2021-06-03 00:01:04,753 INFO [base.py(base_find:27)] - 正在查找元素：('xpath', '/html/body/div[1]/div/div/form/div[4]/div/button/span')
+2021-06-03 00:01:09,998 INFO [base.py(base_get_text:62)] - 正在获取元素文本信息：('css selector', '.company-container')
+2021-06-03 00:01:09,998 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', '.company-container')
+2021-06-03 00:01:10,057 ERROR [test01_mp_login.py(test_mp_login:38)] - 断言出错！！！ 错误信息：assert '江苏传智教育科技股份有限公司' == '江苏传智播客教育科技股份有限公司'
+  - 江苏传智播客教育科技股份有限公司
+  ?     --
+  + 江苏传智教育科技股份有限公司
+2021-06-03 00:01:13,059 ERROR [base.py(base_get_img:75)] - 断言出错，执行截图操作！！！
+2021-06-03 00:01:13,249 ERROR [base.py(base_get_img:78)] - 断言结果写入allure报告中>>>
+2021-06-03 00:01:28,032 INFO [base.py(__init__:15)] - 正在初始化driver: <selenium.webdriver.firefox.webdriver.WebDriver (session="cd2f1a05-198c-4806-b9c6-36156e33c6a4")>
+2021-06-03 00:01:28,032 INFO [page_mp_login.py(page_mp_login_success:46)] - 正在调用自媒体登录业务方法，用户名：13812345679密码：246811
+2021-06-03 00:01:33,033 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-06-03 00:01:33,052 INFO [base.py(base_input:41)] - 正在对元素：('css selector', "[placeholder='请输入手机号']")执行清空数据
+2021-06-03 00:01:33,061 INFO [base.py(base_input:44)] - 正在对：('css selector', "[placeholder='请输入手机号']")元素输入数据：13812345679
+2021-06-03 00:01:38,145 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-06-03 00:01:38,150 INFO [base.py(base_input:41)] - 正在对元素：('css selector', "[placeholder='验证码']")执行清空数据
+2021-06-03 00:01:38,157 INFO [base.py(base_input:44)] - 正在对：('css selector', "[placeholder='验证码']")元素输入数据：246811
+2021-06-03 00:01:43,254 INFO [base.py(base_click:52)] - 正在点击元素：('xpath', '/html/body/div[1]/div/div/form/div[4]/div/button/span')
+2021-06-03 00:01:43,254 INFO [base.py(base_find:27)] - 正在查找元素：('xpath', '/html/body/div[1]/div/div/form/div[4]/div/button/span')
+2021-06-03 00:01:43,493 INFO [base.py(__init__:15)] - 正在初始化driver: <selenium.webdriver.firefox.webdriver.WebDriver (session="cd2f1a05-198c-4806-b9c6-36156e33c6a4")>
+2021-06-03 00:01:43,496 INFO [base.py(base_click:52)] - 正在点击元素：('xpath', "//span[text()='内容管理']/..")
+2021-06-03 00:01:43,496 INFO [base.py(base_find:27)] - 正在查找元素：('xpath', "//span[text()='内容管理']/..")
+2021-06-03 00:02:00,361 INFO [base.py(__init__:15)] - 正在初始化driver: <selenium.webdriver.firefox.webdriver.WebDriver (session="0d5217e3-e6bc-4b60-9012-f8ef7f929366")>
+2021-06-03 00:02:00,364 INFO [page_mis_login.py(page_mis_login:33)] - 正在调用后台管理系统登录业务方法：用户名：testid
+2021-06-03 00:02:00,364 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', "[placeholder='用户名']")
+2021-06-03 00:02:00,389 INFO [base.py(base_input:41)] - 正在对元素：('css selector', "[placeholder='用户名']")执行清空数据
+2021-06-03 00:02:00,399 INFO [base.py(base_input:44)] - 正在对：('css selector', "[placeholder='用户名']")元素输入数据：testid
+2021-06-03 00:02:00,463 INFO [page_mis_login.py(page_mis_login:35)] - 正在调用后台管理系统登录业务方法：密码：testpwd123
+2021-06-03 00:02:00,464 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', "[placeholder='密码']")
+2021-06-03 00:02:00,499 INFO [base.py(base_input:41)] - 正在对元素：('css selector', "[placeholder='密码']")执行清空数据
+2021-06-03 00:02:00,515 INFO [base.py(base_input:44)] - 正在对：('css selector', "[placeholder='密码']")元素输入数据：testpwd123
+2021-06-03 00:02:00,575 INFO [base.py(base_click:52)] - 正在点击元素：('css selector', '#inp1')
+2021-06-03 00:02:00,575 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', '#inp1')
+2021-06-03 00:02:00,815 INFO [base.py(base_get_text:62)] - 正在获取元素文本信息：('css selector', '.user_info')
+2021-06-03 00:02:00,816 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', '.user_info')
+2021-06-03 00:02:15,699 INFO [base.py(__init__:15)] - 正在初始化driver: <selenium.webdriver.firefox.webdriver.WebDriver (session="d59b6667-f8ac-4edc-8311-88ae0a3c6642")>
+2021-06-03 00:02:15,700 INFO [page_mis_login.py(page_mis_login_success:41)] - 正在调用登录依赖业务方法：用户名：testid
+2021-06-03 00:02:15,700 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', "[placeholder='用户名']")
+2021-06-03 00:02:15,728 INFO [base.py(base_input:41)] - 正在对元素：('css selector', "[placeholder='用户名']")执行清空数据
+2021-06-03 00:02:15,739 INFO [base.py(base_input:44)] - 正在对：('css selector', "[placeholder='用户名']")元素输入数据：testid
+2021-06-03 00:02:15,800 INFO [page_mis_login.py(page_mis_login_success:43)] - 正在调用登录依赖方法：密码：testpwd123
+2021-06-03 00:02:15,800 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', "[placeholder='密码']")
+2021-06-03 00:02:15,815 INFO [base.py(base_input:41)] - 正在对元素：('css selector', "[placeholder='密码']")执行清空数据
+2021-06-03 00:02:15,847 INFO [base.py(base_input:44)] - 正在对：('css selector', "[placeholder='密码']")元素输入数据：testpwd123
+2021-06-03 00:02:15,929 INFO [base.py(base_click:52)] - 正在点击元素：('css selector', '#inp1')
+2021-06-03 00:02:15,929 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', '#inp1')
+2021-06-03 00:02:16,212 INFO [base.py(__init__:15)] - 正在初始化driver: <selenium.webdriver.firefox.webdriver.WebDriver (session="d59b6667-f8ac-4edc-8311-88ae0a3c6642")>
+2021-06-03 00:02:19,215 INFO [base.py(base_click:52)] - 正在点击元素：('xpath', "//*[text()='信息管理']/.")
+2021-06-03 00:02:19,215 INFO [base.py(base_find:27)] - 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+2021-06-03 00:02:22,455 INFO [base.py(base_click:52)] - 正在点击元素：('xpath', "//*[text()='内容审核']/.")
+2021-06-03 00:02:22,455 INFO [base.py(base_find:27)] - 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+2021-06-03 00:02:22,805 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
+2021-06-03 00:02:22,815 INFO [base.py(base_input:41)] - 正在对元素：('css selector', "[placeholder='请输入: 文章名称']")执行清空数据
+2021-06-03 00:02:22,822 INFO [base.py(base_input:44)] - 正在对：('css selector', "[placeholder='请输入: 文章名称']")元素输入数据：论w3c的作用
+2021-06-03 00:02:22,847 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
+2021-06-03 00:02:22,884 INFO [base.py(base_input:41)] - 正在对元素：('css selector', "[placeholder='请输入: 频道']")执行清空数据
+2021-06-03 00:02:22,900 INFO [base.py(base_input:44)] - 正在对：('css selector', "[placeholder='请输入: 频道']")元素输入数据：开发者资讯
+2021-06-03 00:02:22,938 INFO [base.py(base_click:52)] - 正在点击元素：('css selector', "[placeholder='请选择状态']")
+2021-06-03 00:02:22,938 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', "[placeholder='请选择状态']")
+2021-06-03 00:02:25,253 INFO [base.py(base_click:52)] - 正在点击元素：('xpath', "//*[text()='待审核']")
+2021-06-03 00:02:25,253 INFO [base.py(base_find:27)] - 正在查找元素：('xpath', "//*[text()='待审核']")
+2021-06-03 00:02:25,521 INFO [base.py(base_click:52)] - 正在点击元素：('css selector', '.find')
+2021-06-03 00:02:25,521 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', '.find')
+2021-06-03 00:02:28,743 INFO [base.py(base_get_text:62)] - 正在获取元素文本信息：('css selector', '.cell>span')
+2021-06-03 00:02:28,743 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', '.cell>span')
+2021-06-03 00:02:28,773 INFO [base.py(base_click:52)] - 正在点击元素：('xpath', "//*[text()='通过']/..")
+2021-06-03 00:02:28,774 INFO [base.py(base_find:27)] - 正在查找元素：('xpath', "//*[text()='通过']/..")
+2021-06-03 00:02:32,041 INFO [base.py(base_click:52)] - 正在点击元素：('css selector', '.el-button--primary')
+2021-06-03 00:02:32,041 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-06-03 00:02:35,265 INFO [base.py(base_click:52)] - 正在点击元素：('css selector', "[placeholder='请选择状态']")
+2021-06-03 00:02:35,265 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', "[placeholder='请选择状态']")
+2021-06-03 00:02:37,502 INFO [base.py(base_click:52)] - 正在点击元素：('xpath', "//*[text()='审核通过']")
+2021-06-03 00:02:37,502 INFO [base.py(base_find:27)] - 正在查找元素：('xpath', "//*[text()='审核通过']")
+2021-06-03 00:02:37,784 INFO [base.py(base_click:52)] - 正在点击元素：('css selector', '.find')
+2021-06-03 00:02:37,785 INFO [base.py(base_find:27)] - 正在查找元素：('css selector', '.find')
+2021-06-03 00:02:41,012 INFO [base.py(base_find:27)] - 正在查找元素：('xpath', "//*[text()='1143144996476551168']")
+2021-06-03 00:02:44,644 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-06-03 00:02:44,644 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-06-03 00:02:46,647 WARNING [connectionpool.py(urlopen:663)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04B92EB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2021-06-03 00:02:48,652 WARNING [connectionpool.py(urlopen:663)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04B92170>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2021-06-03 00:02:50,655 WARNING [connectionpool.py(urlopen:663)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04B92990>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2021-06-03 00:02:53,769 INFO [base.py(__init__:15)] - 正在初始化driver: None
+2021-06-03 00:02:53,770 INFO [page_app_login.py(page_app_login_success:37)] - 依赖登录成功的方法，手机号：13812345679;验证码：246811
+2021-06-03 00:02:53,770 INFO [base.py(base_find:27)] - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
