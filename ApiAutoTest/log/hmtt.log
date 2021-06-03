@@ -1,0 +1,26 @@
+2021-06-03 19:30:16,319 INFO [test02_mis.py(setup_class:14)] - 获取后台mis登录对象
+2021-06-03 19:30:16,319 INFO [api_mis.py(__init__:15)] - 后台登录URL：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-06-03 19:30:16,319 INFO [api_mis.py(__init__:18)] - 后台查询文章URL：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-06-03 19:30:16,319 INFO [api_mis.py(__init__:21)] - 后台审核文章URL：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-06-03 19:30:16,319 INFO [api_mis.py(api_mis_login:27)] - 调用登录URL数据：{'account': 'testid', 'password': 'testpwd123'}
+2021-06-03 19:30:16,654 INFO [tools.py(common_token:15)] - 提取token到headers的headers:{'Content-Type': 'application/json', 'Authorization': 'BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MjI3MjcwMTksImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.fc_L0vaghe--9d_d-PuR3AhEcrhq7V0hAlwoDhVqk_8'}
+2021-06-03 19:30:16,654 INFO [tools.py(common_assert:21)] - 公共断言方法-->status_code
+2021-06-03 19:30:16,689 INFO [api_mis.py(api_mis_search:35)] - 调用查询文章URL数据：{'title': '好风光呀', 'channel': '数据库'}
+2021-06-03 19:30:16,784 INFO [tools.py(common_assert:21)] - 公共断言方法-->status_code
+2021-06-03 19:30:16,784 ERROR [test02_mis.py(test02_mis_search:42)] - 
+2021-06-03 19:30:16,999 INFO [api_mis.py(api_mis_audit:47)] - 调用审核文章URL数据：{'article_id': [1, 2], 'status': 2}
+2021-06-03 19:30:17,099 INFO [tools.py(common_assert:21)] - 公共断言方法-->status_code
+2021-06-03 19:30:17,099 ERROR [test02_mis.py(test03_mis_audit:51)] - 
+2021-06-03 19:33:02,044 INFO [test02_mis.py(setup_class:14)] - 获取后台mis登录对象
+2021-06-03 19:33:02,044 INFO [api_mis.py(__init__:15)] - 后台登录URL：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2021-06-03 19:33:02,044 INFO [api_mis.py(__init__:18)] - 后台查询文章URL：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-06-03 19:33:02,044 INFO [api_mis.py(__init__:21)] - 后台审核文章URL：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2021-06-03 19:33:02,054 INFO [api_mis.py(api_mis_login:27)] - 调用登录URL数据：{'account': 'testid', 'password': 'testpwd123'}
+2021-06-03 19:33:02,284 INFO [tools.py(common_token:15)] - 提取token到headers的headers:{'Content-Type': 'application/json', 'Authorization': 'BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MjI3MjcxODQsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.Ok5n4wkYfq3Gsk3p3Dg2rn_XLMKWgZZaX6PSrk7uYgU'}
+2021-06-03 19:33:02,284 INFO [tools.py(common_assert:21)] - 公共断言方法-->status_code
+2021-06-03 19:33:02,294 INFO [api_mis.py(api_mis_search:35)] - 调用查询文章URL数据：{'title': '好风光呀', 'channel': '数据库'}
+2021-06-03 19:33:02,384 INFO [tools.py(common_assert:21)] - 公共断言方法-->status_code
+2021-06-03 19:33:02,384 ERROR [test02_mis.py(test02_mis_search:42)] - 
+2021-06-03 19:33:02,524 INFO [api_mis.py(api_mis_audit:47)] - 调用审核文章URL数据：{'article_id': [1, 2], 'status': 2}
+2021-06-03 19:33:02,614 INFO [tools.py(common_assert:21)] - 公共断言方法-->status_code
+2021-06-03 19:33:02,614 ERROR [test02_mis.py(test03_mis_audit:51)] - 

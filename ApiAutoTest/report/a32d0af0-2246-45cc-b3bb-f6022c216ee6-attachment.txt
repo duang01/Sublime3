@@ -1,0 +1,7 @@
+INFO     root:test02_mis.py:14 获取后台mis登录对象
+INFO     root:api_mis.py:15 后台登录URL：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+INFO     root:api_mis.py:18 后台查询文章URL：http://ttapi.research.itcast.cn/mis/v1_0/articles
+INFO     root:api_mis.py:21 后台审核文章URL：http://ttapi.research.itcast.cn/mis/v1_0/articles
+INFO     root:api_mis.py:27 调用登录URL数据：{'account': 'testid', 'password': 'testpwd123'}
+INFO     root:tools.py:15 提取token到headers的headers:{'Content-Type': 'application/json', 'Authorization': 'BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MjI3MjcxODQsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.Ok5n4wkYfq3Gsk3p3Dg2rn_XLMKWgZZaX6PSrk7uYgU'}
+INFO     root:tools.py:21 公共断言方法-->status_code

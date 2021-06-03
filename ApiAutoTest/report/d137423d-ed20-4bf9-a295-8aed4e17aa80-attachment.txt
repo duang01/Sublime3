@@ -1,0 +1,3 @@
+INFO     root:api_mis.py:35 调用查询文章URL数据：{'title': '好风光呀', 'channel': '数据库'}
+INFO     root:tools.py:21 公共断言方法-->status_code
+ERROR    root:test02_mis.py:42

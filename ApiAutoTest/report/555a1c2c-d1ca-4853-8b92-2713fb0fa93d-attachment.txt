@@ -1,0 +1,3 @@
+INFO     root:api_mis.py:47 调用审核文章URL数据：{'article_id': [1, 2], 'status': 2}
+INFO     root:tools.py:21 公共断言方法-->status_code
+ERROR    root:test02_mis.py:51
